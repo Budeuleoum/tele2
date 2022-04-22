@@ -1,0 +1,46 @@
+.enter {
+	background-color: #1F2229;
+}
+
+.enter_descr {
+  font-family: 'Tele2Regular', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 48px;
+  color: #FFFFFF;
+}
+
+.enter-circle {
+  position: relative;
+  overflow:hidden;
+  background-color: #48CCFD;
+  border-radius: 50%;
+  width: 359px;
+  height: 359px;
+  /*margin-left: -105px;
+  margin-right: 24px;*/
+}
+
+#sim, #phone {
+  position: absolute;
+}
+
+#sim {
+  top: 161px;
+  left: 260px;
+}
+
+#phone {
+  top: 62px;
+  left: 62px;
+}
+
+.flex-child-enter {
+  margin-right: 118px;
+  margin-bottom: 152px;
+}
+
+.enter-title {
+  margin-top: 52px;
+}

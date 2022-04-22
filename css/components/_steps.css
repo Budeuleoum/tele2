@@ -1,0 +1,136 @@
+.steps {
+	background-color: #1F2229;
+}
+
+.promocode-form {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.uphone {
+  font-family: 'Tele2Regular';
+  font-size: 13px;
+  line-height: 18px;
+  color: #8F9399;
+  margin-bottom: 3px;
+}
+
+.promocode-form_field {
+  width: 348px;
+  background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #8F9399;
+	font-family: 'Tele2Regular';
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+  margin-bottom: 26px;
+}
+
+.check {
+  display: block;
+}
+
+.check input {
+  display: none;
+  cursor: pointer;
+}
+
+.check label {
+  position: relative;
+  cursor: pointer;
+  font-family: 'Tele2Regular';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.check label:before {
+  content:'';
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 13px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.check input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 12px;
+  width: 7px;
+  height: 14px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: li;
+}
+
+.list li {
+  line-height: 30px; 
+  font-family: 'Tele2Regular';
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 30px;
+  /*width: 40%;*/
+  margin-left: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.list li:before {
+  content: counter(li);
+  counter-increment: li;
+  background-color: transparent;
+  border: 2px solid #39404C;
+  border-radius: 50%;
+  padding: 0.5em;
+  width: 80px;
+  height: 80px;
+  display: inline-block; 
+  margin-left: -105px; 
+  margin-right: 24px;   
+  font-family: 'DisplaySerif';
+  font-size: 40px;
+  color: #48CCFD;
+  text-align: center;
+}
+
+.button {
+  background-color: #FFFFFF;
+	position: relative;
+	z-index: 5;
+	padding: 15px 40px;
+	border-radius: 48px;
+}
+
+.info {
+  width: 348px;
+  height: 48px;
+  background: #262B36;
+  border-radius: 8px;
+  margin-top: 48px;
+}
+
+.flex-child-steps {
+  margin-right: 240px;
+  margin-bottom: 160px;
+}

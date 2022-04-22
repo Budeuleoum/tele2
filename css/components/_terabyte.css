@@ -1,0 +1,47 @@
+.terabyte {
+	background-color: #1F2229;
+	padding-top: 148px;
+}
+
+.terabyte_descr {
+	font-family: 'Tele2Regular', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+  line-height: 30px;
+	padding-top: 24px;
+  padding-bottom: 56px;
+	color: #FFFFFF;
+	max-width: 43%;
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  background-color: #39404C;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.terabyte_img {
+  width: 40px;
+  height: 40px;
+  position: relative; top: 50%;
+  transform: translateY(-50%); 
+}
+
+.descr {
+  font-family: 'Tele2Regular', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+  line-height: 30px;
+	color: #FFFFFF;
+}
+
+.flex-child-terabyte {
+  display: flex;   
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 56px;
+  margin-bottom: 148px;
+}

@@ -1,0 +1,54 @@
+.header {
+  position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background-color: #1F2229;
+  height: 75px;
+  border-bottom: 1px solid #383D4A;
+}
+
+.header_container {
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.logo {
+  background-image: url("../../img/logo.svg");
+	width: 88px;
+	height: 33px;
+  background-repeat: no-repeat;
+  margin: 21px 0 22px 32px;
+}
+
+.header_location {
+  display: flex;
+	align-items: center;
+  padding: 23px 45px 28px 0;
+}
+
+.header_location-item:not(:last-child) {
+	margin-right: 15px;
+}
+
+.location {
+  display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../../img/location.png");
+	width: 18px;
+	height: 25px;
+}
+
+.city {
+  font-family: 'Tele2Regular';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+  color: #383D4A;
+}

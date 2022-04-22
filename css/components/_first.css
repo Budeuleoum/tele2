@@ -1,0 +1,48 @@
+.first {
+	min-height: 660px;
+	background-color: #1F2229;	
+}
+
+.first_container {
+	position: relative;
+	padding-top: 132px;
+	height: 100%;
+}
+
+.first_descr {
+	font-family: 'Tele2Regular', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 58px;
+	color: #FFFFFF;
+	max-width: 49%;
+}
+
+.first_title {
+	font-family: 'StandardStencil-Bold_media', sans-serif;
+	font-weight: 700;
+	font-size: 68px;
+	line-height: 68px;
+	text-transform: uppercase;
+	max-width: 53%;
+	margin-top: 48px;
+	margin-bottom: 24px;
+	color: #FFFFFF;
+}
+
+.first_btn {
+	background-color: #FFFFFF;
+	position: relative;
+	padding: 19px 44px;
+	border-radius: 30px;
+}
+
+.flex-parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-child:nth-of-type(1) {
+  margin-top: 27px;
+}
+

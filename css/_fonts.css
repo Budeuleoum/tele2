@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Tele2Bold';
+	src: url('../fonts/tele2_textsans-bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tele2Regular';
+	src: url('../fonts/tele2_textsans-regular.woff') format('woff');
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'StandardStencil-Bold_media';
+	src: url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
+			url('../fonts/standardctstencil_bold-webfont.woff2') format('woff2');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DisplaySerif';
+	src: url('../fonts/Tele2DisplaySerif-Bold-short__W.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tele2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+  <header class="header">
+    <div class="header_container flex">
+      <a href="#" class="logo" aria-label="Tele2"></a>
+      <ul class="header_location">
+        <li class="header_location-item location"></li>
+        <li class="header_location-item city">Санкт-Петербург</li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="first">
+        <div class="container first_container">
+          <div class="flex-parent">
+            <div class="flex-child">
+              <p class="first_descr">Акция продлится с 1 по 20 сентября</p>
+              <h1 class="first_title">Это ваша выгода!</h1>
+              <p class="first_descr">Тариф «Мой онлайн+» и 1 ТБ трафика в подарок для новых абонентов</p>
+              <button class="first_btn btn-reset btn">Принять участие</button>
+            </div>
+            <div class="flex-child">
+              <img src="img/Boss1.png" alt="Boss" class="first_img">
+            </div>
+          </div>
+        </div>     
+    </section>
+
+    <section class="terabyte">
+      <div class="container">
+        <h2 class="section-title">Один терабайт — много любимых развлечений</h2>
+        <p class="terabyte_descr">Подарок получают только новые абоненты при подключении услуг Tele2 с тарифом «Мой онлайн+». Трафик расходуется в течение года.</p>
+        <div class="flex">
+          <div class="flex-child-terabyte">
+            <div class="circle">
+              <img src="img/video.svg" class="terabyte_img">
+            </div>
+            <h2 class="descr">Около 500 часов видео</h2>
+          </div>
+          <div class="flex-child-terabyte">
+            <div class="circle">
+              <img src="img/headphones.svg" class="terabyte_img">
+            </div>
+            <p class="descr">Примерно 200 000 песен</p>
+          </div>
+          <div class="flex-child-terabyte">
+            <div class="circle">
+              <img src="img/photo.svg" class="terabyte_img">
+            </div>
+            <p class="descr">Порядка 300 000 фото</p>
+          </div>
+        </div>
+
+      </div>
+    </section> 
+
+    <section class="steps">
+      <div class="container flex">
+          <div class="flex-child-steps">
+            <h2 class="section-title">Несколько шагов <br> и 1 ТБ — ваш</h2>
+            <form action="#" class="promocode-form" onsubmit="document.querySelector('.info').textContent = 'Успешно отправлено.';" >
+              <label for="uphone" class="uphone">Номер телефона</label>
+              <input type="tel" id="uphone" class="promocode-form_field">
+              <div class="check">
+                <input type="checkbox" id="checkbox_1">
+                <label for="checkbox_1">Даю согласие на обработку персональных<br>данных. Условия соглашения.</label>
+              </div>
+              <input type="submit" class="button btn-reset btn" value="Выслать промокод">
+              <div class="info"></div>
+            </form>
+          </div>
+          <div class="flex-child-steps">
+            <ol class="list">
+              <li>Ведите свой номер телефона, затем дождитесь <br> смс с промокодом для получения Тб</li>
+              <li>Перейдите на сайт Tele2 и активируйте промокод при <br> подключении на тариф «Мой Онлайн+»</li>
+              <li>Используйте свой подарочный ТБ от Tele2 <br> в течение всего года</li>
+            </ol>
+          </div>
+      </div>
+    </section>
+
+    <section class="enter">
+      <div class="container flex">
+        <div class="flex-child-enter">
+          <h2 class="section-title enter-title">Заходите на сайт Tele2</h2>
+          <p class="enter_descr">Перейдите в магазин, оформите тариф «Мой онлайн+» <br> и на страничке активации введите ваш промокод. Готово!</p>
+          <button class="button btn-reset btn">Оформить тариф</button>
+        </div>
+        <div class="flex-child-enter">
+          <div class="enter-circle">
+            <img src="img/sim.png" id="sim">
+            <img src="img/phone.png" id="phone">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <!--<div class="container footer_container flex">
+      <ul class="footer_social">
+        <li class="social_item"><a href="#" class="social_link social_link-tw" arial-label="Go to Twitter"></a></li>
+        <li class="social_item"><a href="#" class="social_link social_link-vk" arial-label="Go to VK"></li>
+        <li class="social_item"><a href="#" class="social_link social_link-fb" arial-label="Go to Facebook"></li>
+      </ul>
+      <div class="rules">
+        <h5>Полные условия акции</h5>
+        <span class="circle_age"></span>
+      </div>
+    </div>-->
+    <div class="flex-footer container">
+      <div class="flex-child-footer">
+        <ul class="footer_social">
+          <li><a href="#" class="social_link-tw" arial-label="Go to Twitter"><img src="img/tw.png" alt="Twitter"></a></li>
+          <li><a href="#" class="social_link-vk" arial-label="Go to VK"><img src="img/vk.png" alt="VK"></a></li>
+          <li><a href="#" class="social_link-fb" arial-label="Go to Facebook"><img src="img/fb.png" alt="Facebook"></a></li>
+        </ul> 
+      </div>
+      <div class="flex-child-footer">
+        <h6>Полные условия акции</h6>
+        <div class="circle_age">16+</div>
+      </div>
+    </div>
+    <div class="container footer">
+        <div class="flex-child-footer">
+          <img src="img/Logo.svg" alt="logo">
+          <h5>© Tele2 Россия, 2021</h5>
+        </div>
+        <div class="flex-child-footer">
+          <h6>Сделано в Студии Олега Чулакова</h6>
+          <img src="img/Chulakov.svg" alt="logo">
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>

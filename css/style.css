@@ -1,0 +1,10 @@
+@import "_fonts.css";
+@import "_global.css";
+@import "_overall.css";
+
+@import "./components/_header.css";
+@import "./components/_footer.css";
+@import "./components/_first.css";
+@import "./components/_terabyte.css";
+@import "./components/_steps.css";
+@import "./components/_enter.css";
