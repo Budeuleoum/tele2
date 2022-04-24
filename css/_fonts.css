@@ -15,7 +15,7 @@
 }
 
 @font-face {
-	font-family: 'StandardStencil-Bold_media';
+	font-family: 'StandardStencil';
 	src: url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
 			url('../fonts/standardctstencil_bold-webfont.woff2') format('woff2');
 	font-weight: 700;

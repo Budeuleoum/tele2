@@ -10,7 +10,7 @@
   font-size: 13px;
   line-height: 18px;
   color: #8F9399;
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .promocode-form_field {
@@ -44,29 +44,29 @@
   color: #FFFFFF;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .check label:before {
   content:'';
   background-color: transparent;
   border: 2px solid #ffffff;
-  padding: 13px;
+  padding: 9px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .check input:checked + label:after {
   content: '';
   display: block;
   position: absolute;
-  top: 4px;
-  left: 12px;
+  top: 2px;
+  left: 8px;
   width: 7px;
-  height: 14px;
+  height: 13px;
   border: solid #ffffff;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
@@ -80,14 +80,13 @@
 }
 
 .list li {
-  line-height: 30px; 
   font-family: 'Tele2Regular';
   font-size: 20px;
   color: #FFFFFF;
   line-height: 30px;
-  /*width: 40%;*/
+  width: 162%;
   margin-left: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 32px;
   display: flex;
   align-items: center;
 }
@@ -114,7 +113,7 @@
   background-color: #FFFFFF;
 	position: relative;
 	z-index: 5;
-	padding: 15px 40px;
+	padding: 13px 40px;
 	border-radius: 48px;
 }
 
@@ -127,6 +126,6 @@
 }
 
 .flex-child-steps {
-  margin-right: 240px;
-  margin-bottom: 160px;
+  margin-right: 207px;
+  margin-bottom: 163px;
 }
