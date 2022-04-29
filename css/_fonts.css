@@ -1,32 +1,32 @@
 @font-face {
-	font-family: 'Tele2Bold';
-	src: url('../fonts/tele2_textsans-bold.woff') format('woff');
-	font-display: swap;
-	font-weight: 400;
+	font-family: 'Tele2TextSans';
 	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/tele2_textsans-regular.woff') format('woff'),
+			 url('../fonts/Tele2TextSans-Regular-shortWeb_0.ttf') format('ttf');
 }
 
 @font-face {
-	font-family: 'Tele2Regular';
-	src: url('../fonts/tele2_textsans-regular.woff') format('woff');
-	font-display: swap;
+	font-family: 'Tele2TextSans';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: bold;
+	src: url('../fonts/tele2_textsans-bold.woff') format('woff'),
+			 url('../fonts/Tele2DisplaySerif-Bold-short__W.woff') format('ttf');
 }
 
 @font-face {
-	font-family: 'StandardStencil';
-	src: url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
-			url('../fonts/standardctstencil_bold-webfont.woff2') format('woff2');
-	font-weight: 700;
-	font-display: swap;
+	font-family: 'StandardCTStencil-Bold';
 	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/standardctstencil_bold-webfont.woff2') format('woff2'),
+			 url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
+			 url('../fonts/StandardStencil-Bold_media.otf') format('otf');
 }
 
 @font-face {
 	font-family: 'DisplaySerif';
-	src: url('../fonts/Tele2DisplaySerif-Bold-short__W.woff') format('woff');
-	font-weight: 700;
-	font-display: swap;
 	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/Tele2DisplaySerif-Bold-short__W.woff') format('woff'),
+			 url('../fonts/Tele2DisplaySerif-Bold-shortWeb_0.ttf') format('ttf');
 }

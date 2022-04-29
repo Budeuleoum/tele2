@@ -1,19 +1,20 @@
 .terabyte {
-	padding-top: 142px;
+	margin-top: 142px;
 }
 
-.terabyte_descr {
-	font-family: 'Tele2Regular', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-  line-height: 30px;
-	padding-top: 27px;
-  padding-bottom: 56px;
-	color: #FFFFFF;
+.terabyte__text-descr {
+  margin: 27px 0px 56px;
 	max-width: 59%;
 }
 
-.circle {
+.terabyte__flex-child {
+  display: flex;
+  align-items: center;
+  margin-right: 56px;
+}
+
+.terabyte__circle {
+  position: relative;
   width: 72px;
   height: 72px;
   background-color: #39404C;
@@ -22,25 +23,11 @@
   margin-right: 16px;
 }
 
-.terabyte_img {
+.terabyte__img {
   width: 40px;
   height: 40px;
-  position: relative; top: 50%;
+  position: absolute; 
+  top: 50%;
+  right: 22%;
   transform: translateY(-50%); 
-}
-
-.descr {
-  font-family: 'Tele2Regular', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-  line-height: 30px;
-	color: #FFFFFF;
-}
-
-.flex-child-terabyte {
-  display: flex;   
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-right: 56px;
-  margin-bottom: 148px;
 }

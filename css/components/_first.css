@@ -1,49 +1,27 @@
-.first_container {
-	position: relative;
-	padding-top: 133px;
-	height: 100%;
+.first {
+	margin-top: 57px;
 }
 
-.share_descr {
-	font-family: 'Tele2Regular', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-	margin-bottom: 53px;
-	color: #FFFFFF;
+.first__text-headline {
+	margin: 26px 0px 53px;
 }
 
-.first_descr {
-	font-family: 'Tele2Regular', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
-	margin-bottom: 62px;
-	color: #FFFFFF;
-	width: 65%;
-}
-
-.first_title {
-	font-family: 'StandardStencil', sans-serif;
-	font-weight: 700;
+.first__text-title {
+	font-family: 'StandardCTStencil-Bold', sans-serif;
+	font-weight: bold;
 	font-size: 68px;
 	line-height: 66px;
 	text-transform: uppercase;
-	margin-bottom: 30px;
 	color: #FFFFFF;
+	margin-bottom: 24px;
 }
 
-.first_btn {
-	background-color: #FFFFFF;
-	position: relative;
+.first__text-descr {
+	margin-bottom: 55px;
+	width: 65%;
+}
+
+.btn--large {
 	padding: 19px 44px;
 	border-radius: 30px;
 }
-
-.flex-parent {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex-child:nth-of-type(1) {
-  margin-top: 31px;
-}
-

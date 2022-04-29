@@ -1,21 +1,51 @@
-.social_link-tw {
+.footer {
+	margin-top: 155px;
+}
+
+.footer__flex {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.footer--bottom {
+	border-top: 1px solid #d9d9d9;
+	height: 119px;
+}
+
+.footer__flex-child {
+	display: flex;
+	align-items: center;
+}
+
+.footer__social {
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+}
+
+.social-link--tw {
 	width: 27px;
 	height: 16px;
-	margin-right: -7px;
+	margin-right: 16px;
 }
 
-.social_link-vk {
+.social-link--vk {
 	width: 21px;
 	height: 20px;
-	margin-right: -1px;
+	margin-right: 24px;
 }
 
-.social_link-fb {
+.social-link--fb {
 	width: 13px;
 	height: 27px;
 }
 
-.circle_age {
+.footer__text--small {
+	font-size: 13px;
+}
+
+.footer__circle {
 	background-color: transparent;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
@@ -23,60 +53,28 @@
   width: 32px; 
   height: 32px;
   display: inline-block;
-  font-family: 'Tele2Regular';
+  font-family: 'Tele2TextSans';
   font-size: 12px;
   color: #FFFFFF;
   text-align: center;
 	margin-left: 12px;
 }
 
-.flex-footer {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 12px;
-}
-
-.footer_social {
-	display: flex;
-	align-items: center;
-	background-repeat: no-repeat;
-}
-
-.flex-child-footer {
-	display: flex;
-	align-items: center;
-}
-
-h6 {
-	font-family: 'Tele2Regular';
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 18px;
-	color: #FFFFFF;
-}
-
-.flex-child-footer img:nth-child(1) {
+.footer__logo {
 	margin-right: 24px;
+	height: 30px;
+  width: 79px;
 }
 
-.footer {
-	border-top: 1px solid #d9d9d9;
-	height: 119px;
-	display: flex;
-	justify-content: space-between;
-}
-
-h5 {
-	font-family: 'Tele2Regular';
-	font-weight: 400;
+.footer__text--copy {
 	font-size: 16px;
 	line-height: 22px;
-	color: #FFFFFF;
 	opacity: 0.5;
 }
 
-.footer h6 {
+.footer__text--chulakov {
 	opacity: 0.5;
 	margin-right: 24px;
 }
+
 

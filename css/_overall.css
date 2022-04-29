@@ -4,36 +4,32 @@
 	margin: 0 auto;
 }
 
-.site-container {
-	overflow: hidden;
-}
-
 .flex {
 	display: flex;
 }
 
-.btn-reset {
+.btn {
+	font-family: 'Tele2TextSans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
 	border: none; 
-	background-color: transparent;
-	cursor: pointer;
-	padding: 0;
+	background-color: #FFFFFF;
+	padding: 13px 40px;
+	border-radius: 48px;
 }
 
-.section-title {
+.title {
 	font-family: 'DisplaySerif', sans-serif;
-	font-weight: 700;
+	font-weight: bold;
 	font-size: 40px;
 	line-height: 52px;
 	color: #ffffff;
 }
 
-.section-title--center {
-	text-align: center;
-	max-width: none;
-}
-
-.btn {
-	font-family: 'Tele2Bold', sans-serif;
-	font-weight: 700;
-	font-size: 16px;
+.text {
+	font-family: 'Tele2TextSans', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
 }

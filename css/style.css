@@ -1,6 +1,7 @@
 @import "_fonts.css";
 @import "_global.css";
 @import "_overall.css";
+@import "_adaptive.css";
 
 @import "./components/_header.css";
 @import "./components/_footer.css";

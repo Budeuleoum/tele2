@@ -1,53 +1,57 @@
-.promocode-form {
+.steps {
+  margin-top: 147px;
+}
+
+.steps__flex-child {
+  width: 50%;
+}
+
+.form {
   margin-top: 64px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
 }
 
-.uphone {
-  font-family: 'Tele2Regular';
+.form__phone {
+  font-family: 'Tele2Regular', sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #8F9399;
   margin-bottom: 4px;
 }
 
-.promocode-form_field {
+.form__field {
   width: 348px;
   background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #8F9399;
-	font-family: 'Tele2Regular';
-	font-size: 16px;
-	line-height: 22px;
-	color: #ffffff;
   margin-bottom: 26px;
 }
 
-.check {
-  display: block;
+.form__text-phone {
+  font-size: 16px;
+	line-height: 22px;
 }
 
-.check input {
+.check__input {
   display: none;
   cursor: pointer;
 }
 
-.check label {
+.check__label {
   position: relative;
   cursor: pointer;
-  font-family: 'Tele2Regular';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #FFFFFF;
-  display: flex;
   align-items: flex-start;
   margin-bottom: 31px;
 }
 
-.check label:before {
+.form__text-label {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.check__label:before {
   content:'';
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -59,7 +63,7 @@
   margin-right: 10px;
 }
 
-.check input:checked + label:after {
+.check__input:checked + .check__label:after {
   content: '';
   display: block;
   position: absolute;
@@ -72,26 +76,21 @@
   transform: rotate(45deg);
 }
 
-.list {
+.steps__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
   counter-reset: li;
 }
 
-.list li {
-  font-family: 'Tele2Regular';
-  font-size: 20px;
-  color: #FFFFFF;
-  line-height: 30px;
-  width: 162%;
-  margin-left: 30px;
-  padding-bottom: 32px;
+.steps__list-item {
+  width: 87%;
+  margin: 0px 0px 32px 30px;
   display: flex;
   align-items: center;
 }
 
-.list li:before {
+.steps__list-item:before {
   content: counter(li);
   counter-increment: li;
   background-color: transparent;
@@ -109,15 +108,7 @@
   text-align: center;
 }
 
-.button {
-  background-color: #FFFFFF;
-	position: relative;
-	z-index: 5;
-	padding: 13px 40px;
-	border-radius: 48px;
-}
-
-.info {
+.form__info {
   width: 348px;
   height: 48px;
   background: #262B36;
@@ -125,7 +116,3 @@
   margin-top: 48px;
 }
 
-.flex-child-steps {
-  margin-right: 207px;
-  margin-bottom: 163px;
-}
