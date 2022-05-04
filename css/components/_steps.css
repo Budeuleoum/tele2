@@ -1,8 +1,9 @@
 .steps {
   margin-top: 147px;
+  display: flex;
 }
 
-.steps__flex-child {
+.steps__desc {
   width: 50%;
 }
 
@@ -44,6 +45,7 @@
   cursor: pointer;
   align-items: flex-start;
   margin-bottom: 31px;
+  display: flex;
 }
 
 .form__text-label {
@@ -84,7 +86,6 @@
 }
 
 .steps__list-item {
-  width: 87%;
   margin: 0px 0px 32px 30px;
   display: flex;
   align-items: center;

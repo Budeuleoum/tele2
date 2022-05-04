@@ -19,8 +19,7 @@
 	font-style: normal;
 	font-weight: bold;
 	src: url('../fonts/standardctstencil_bold-webfont.woff2') format('woff2'),
-			 url('../fonts/standardctstencil_bold-webfont.woff') format('woff'),
-			 url('../fonts/StandardStencil-Bold_media.otf') format('otf');
+			 url('../fonts/standardctstencil_bold-webfont.woff') format('woff');
 }
 
 @font-face {

@@ -19,122 +19,107 @@
   </header>
 
   <main class="main">
-    <section class="first">
-        <div class="container flex">
-          <div class="first__flex-child">
-            <p class="text first__text-headline">Акция продлится с 1 по 20 сентября</p>
-            <h1 class="first__text-title">Это ваша выгода!</h1>
-            <p class="text first__text-descr">Тариф «Мой онлайн+» и 1 ТБ трафика в подарок для новых абонентов</p>
-            <button class="btn btn--large">Принять участие</button>
-          </div>
-          <div class="first__flex-child">
-            <img src="img/Boss1.png" alt="Boss">
-          </div>
-        </div>
+    <section class="first container">
+      <div class="first__desc">
+        <p class="text first__text-headline">Акция продлится с 1 по 20 сентября</p>
+        <h1 class="first__text-title">Это ваша выгода!</h1>
+        <p class="text first__text-descr">Тариф «Мой онлайн+» и 1 ТБ трафика в подарок для новых абонентов</p>
+        <button class="btn btn--large">Принять участие</button>
+      </div>
+      <div class="first__image">
+        <img src="img/Boss1.png" alt="Boss">
+      </div>
     </section>
 
-    <section class="terabyte">
-      <div class="container">
-        <h2 class="title">Один терабайт — много любимых развлечений</h2>
-        <p class="text terabyte__text-descr">Подарок получают только новые абоненты при подключении услуг Tele2 с тарифом «Мой онлайн+». Трафик расходуется в течение года.</p>
-        <div class="flex">
-          <div class="terabyte__flex-child">
-            <div class="terabyte__circle">
-              <img class="terabyte__img" src="img/video.svg">
-            </div>
-            <h2 class="text">Около 500 часов видео</h2>
+    <section class="terabyte container">
+      <h2 class="title">Один терабайт — много любимых развлечений</h2>
+      <p class="text terabyte__text-descr">Подарок получают только новые абоненты при подключении услуг Tele2 с тарифом «Мой онлайн+». Трафик расходуется в течение года.</p>
+      <div class="terabyte__list">
+        <div class="terabyte__item">
+          <div class="terabyte__circle">
+            <img class="terabyte__img" src="img/video.svg">
           </div>
-          <div class="terabyte__flex-child">
-            <div class="terabyte__circle">
-              <img class="terabyte__img" src="img/headphones.svg">
-            </div>
-            <p class="text">Примерно 200 000 песен</p>
+          <h2 class="text">Около 500 часов видео</h2>
+        </div>
+        <div class="terabyte__item">
+          <div class="terabyte__circle">
+            <img class="terabyte__img" src="img/headphones.svg">
           </div>
-          <div class="terabyte__flex-child">
-            <div class="terabyte__circle">
-              <img class="terabyte__img" src="img/photo.svg">
-            </div>
-            <p class="text">Порядка 300 000 фото</p>
+          <p class="text">Примерно 200 000 песен</p>
+        </div>
+        <div class="terabyte__item">
+          <div class="terabyte__circle">
+            <img class="terabyte__img" src="img/photo.svg">
           </div>
+          <p class="text">Порядка 300 000 фото</p>
         </div>
       </div>
     </section> 
 
-    <section class="steps">
-      <div class="container flex">
-          <div class="steps__flex-child">
-            <h2 class="title">Несколько шагов <br> и 1 ТБ — ваш</h2>
-            <form class="form" action="#" onsubmit="document.querySelector('.form__info').textContent = 'Успешно отправлено.';" >
-              <label class="form__phone" for="uphone">Номер телефона</label>
-              <input class="form__field text form__text-phone" type="tel" id="uphone">
-              <div class="check">
-                <input class="check__input" type="checkbox" id="checkbox_1">
-                <label class="check__label text form__text-label flex" for="checkbox_1">Даю согласие на обработку персональных<br>данных. Условия соглашения.</label>
-              </div>
-              <input class="btn" type="submit" value="Выслать промокод">
-              <div class="form__info"></div>
-            </form>
+    <section class="steps container">
+      <div class="steps__desc">
+        <h2 class="title">Несколько шагов <br> и 1 ТБ — ваш</h2>
+        <form class="form" action="#" onsubmit="document.querySelector('.form__info').textContent = 'Успешно отправлено.';" >
+          <label class="form__phone" for="uphone">Номер телефона</label>
+          <input class="form__field text form__text-phone" type="tel" id="uphone">
+          <div class="check">
+            <input class="check__input" type="checkbox" id="checkbox_1">
+            <label class="check__label text form__text-label" for="checkbox_1">Даю согласие на обработку персональных<br>данных. Условия соглашения.</label>
           </div>
-          <div class="steps__flex-child">
-            <ol class="steps__list text">
-              <li class="steps__list-item">Ведите свой номер телефона, затем дождитесь <br> смс с промокодом для получения Тб</li>
-              <li class="steps__list-item">Перейдите на сайт Tele2 и активируйте промокод при <br> подключении на тариф «Мой Онлайн+»</li>
-              <li class="steps__list-item">Используйте свой подарочный ТБ от Tele2 <br> в течение всего года</li>
-            </ol>
-          </div>
+          <input class="btn" type="submit" value="Выслать промокод">
+          <div class="form__info"></div>
+        </form>
       </div>
+      <ol class="steps__list text">
+        <li class="steps__list-item">Ведите свой номер телефона, затем дождитесь <br> смс с промокодом для получения Тб</li>
+        <li class="steps__list-item">Перейдите на сайт Tele2 и активируйте промокод при <br> подключении на тариф «Мой Онлайн+»</li>
+        <li class="steps__list-item">Используйте свой подарочный ТБ от Tele2 <br> в течение всего года</li>
+      </ol>
     </section>
 
-    <section class="enter">
-      <div class="container flex">
-        <div class="enter__flex-child">
+    <section class="enter container">
+        <div class="enter__desc">
           <h2 class="title enter__title">Заходите на сайт Tele2</h2>
           <p class="text enter__text-descr">Перейдите в магазин, оформите тариф «Мой онлайн+» <br> и на страничке активации введите ваш промокод. Готово!</p>
           <button class="btn">Оформить тариф</button>
         </div>
-        <div class="enter__flex-child">
-          <div class="enter__circle">
-            <img class="enter__sim" src="img/sim.png">
-            <img class="enter__phone" src="img/phone.png">
-          </div>
+        <div class="enter__circle">
+          <img class="sim" src="img/sim.png">
+          <img class="phone" src="img/phone.png">
         </div>
-      </div>
     </section>
-
   </main>
 
   <footer class="footer container">
-    <div class="footer__flex">
-      <div class="footer__flex-child">
-        <ul class="footer__social">
-          <li>
-            <a class="social-link--tw" href="#" arial-label="Go to Twitter">
-              <img src="img/tw.png" alt="Twitter">
-            </a>
-          </li>
-          <li>
-            <a class="social-link--vk" href="#" arial-label="Go to VK">
-              <img src="img/vk.png" alt="VK">
-            </a>
-          </li>
-          <li>
-            <a class="social-link--fb" href="#" arial-label="Go to Facebook">
-              <img src="img/fb.png" alt="Facebook">
-            </a>
-          </li>
-        </ul> 
-      </div>
-      <div class="footer__flex-child">
+    <div class="footer__content">
+      <ul class="footer__social">
+        <li>
+          <a class="social-link--tw" href="#" arial-label="Go to Twitter">
+            <img src="img/tw.png" alt="Twitter">
+          </a>
+        </li>
+        <li>
+          <a class="social-link--vk" href="#" arial-label="Go to VK">
+            <img src="img/vk.png" alt="VK">
+          </a>
+        </li>
+        <li>
+          <a class="social-link--fb" href="#" arial-label="Go to Facebook">
+            <img src="img/fb.png" alt="Facebook">
+          </a>
+        </li>
+      </ul> 
+      <div class="footer__meta">
         <h6 class="text footer__text--small">Полные условия акции</h6>
         <div class="footer__circle">16+</div>
       </div>
     </div>
-    <div class="flex footer__flex footer--bottom">
-        <div class="footer__flex-child">
+    <div class="footer__content footer--border">
+        <div class="footer__meta">
           <img class="footer__logo" src="img/Logo.svg" alt="logo">
           <h5 class="text footer__text--copy">© Tele2 Россия, 2021</h5>
         </div>
-        <div class="footer__flex-child">
+        <div class="footer__meta">
           <h6 class="text footer__text--small footer__text--chulakov">Сделано в Студии Олега Чулакова</h6>
           <img src="img/Chulakov.svg" alt="logo">
         </div>

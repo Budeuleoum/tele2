@@ -2,18 +2,18 @@
 	margin-top: 155px;
 }
 
-.footer__flex {
+.footer__content {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 12px;
 }
 
-.footer--bottom {
+.footer--border {
 	border-top: 1px solid #d9d9d9;
 	height: 119px;
 }
 
-.footer__flex-child {
+.footer__meta {
 	display: flex;
 	align-items: center;
 }
@@ -73,6 +73,7 @@
 }
 
 .footer__text--chulakov {
+	font-size: 13px;
 	opacity: 0.5;
 	margin-right: 24px;
 }

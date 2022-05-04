@@ -6,7 +6,8 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;  
+  width: 1440px;
+  margin: auto;
 }
 
 .header__logo {
@@ -19,7 +20,7 @@
 
 .header__location {
   display: flex;
-  padding: 23px 45px 28px 0;
+  margin: 21px 29px 25px 0;
 }
 
 .mark {

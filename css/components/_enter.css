@@ -1,8 +1,9 @@
 .enter {
   margin-top: 164px;
+  display: flex;
 }
 
-.enter__flex-child {
+.enter__desc {
   margin-right: 114px;
 }
 
@@ -23,13 +24,13 @@
   height: 359px;
 }
 
-.enter__sim {
+.sim {
   position: absolute;
   top: 161px;
   left: 260px;
 }
 
-.enter__phone {
+.phone {
   position: absolute;
   top: 62px;
   left: 62px;

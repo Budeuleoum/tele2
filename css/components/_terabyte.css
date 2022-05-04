@@ -7,7 +7,11 @@
 	max-width: 59%;
 }
 
-.terabyte__flex-child {
+.terabyte__list {
+  display: flex;
+}
+
+.terabyte__item {
   display: flex;
   align-items: center;
   margin-right: 56px;
