@@ -1,11 +1,11 @@
-@import "_fonts.css";
-@import "_global.css";
-@import "_overall.css";
-@import "_adaptive.css";
+@import "fonts.css";
+@import "global.css";
+@import "overall.css";
+@import "adaptive.css";
 
-@import url("./components/_header.css");
-@import url("./components/_footer.css");
-@import url("./components/_first.css");
-@import url("./components/_terabyte.css");
-@import url("./components/_steps.css");
-@import url("./components/_enter.css");
+@import url("./components/header.css");
+@import url("./components/footer.css");
+@import url("./components/first.css");
+@import url("./components/terabyte.css");
+@import url("./components/steps.css");
+@import url("./components/enter.css");
