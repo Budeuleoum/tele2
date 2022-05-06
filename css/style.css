@@ -3,9 +3,9 @@
 @import "_overall.css";
 @import "_adaptive.css";
 
-@import "/css/components/_header.css";
-@import "./components/_footer.css";
-@import "./components/_first.css";
-@import "./components/_terabyte.css";
-@import "./components/_steps.css";
-@import "./components/_enter.css";
+@import url("./components/_header.css");
+@import url("./components/_footer.css");
+@import url("./components/_first.css");
+@import url("./components/_terabyte.css");
+@import url("./components/_steps.css");
+@import url("./components/_enter.css");
