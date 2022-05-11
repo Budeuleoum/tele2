@@ -1,0 +1,36 @@
+.enter {
+	margin-top: 164px;
+	display: flex;
+
+	&__desc {
+		margin-right: 114px;
+	}
+
+	&__title {
+		margin: 40px 0px 30px;
+	}
+
+	&__text-descr {
+		margin-bottom: 48px;
+	}
+
+	&__circle {
+		position: relative;
+		overflow: hidden;
+		background-color: $color-blue;
+		border-radius: 50%;
+		@include element-size(359px, 359px);
+	}
+}
+
+.sim {
+	position: absolute;
+	top: 161px;
+	left: 260px;
+}
+
+.phone {
+	position: absolute;
+	top: 62px;
+	left: 62px;
+}

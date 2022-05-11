@@ -1,0 +1,24 @@
+.first {
+	margin-top: 57px;
+	display: flex;
+
+	&__text-headline {
+		margin: 26px 0px 53px;
+	}
+
+	&__text-title {
+		@include font-source-stencil(68px, $color-white, 66px);
+		text-transform: uppercase;
+		margin-bottom: 24px;
+	}
+
+	&__text-descr {
+		margin-bottom: 55px;
+		width: 65%;
+	}
+}
+
+.--larbtnge {
+	padding: 19px 44px;
+	border-radius: 30px;
+}

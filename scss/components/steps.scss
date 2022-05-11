@@ -1,0 +1,110 @@
+.steps {
+	margin-top: 147px;
+	display: flex;
+
+	&__desc {
+		width: 50%;
+	}
+
+	&__list {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		counter-reset: li;
+
+		&-item {
+			margin: 0px 0px 32px 30px;
+			display: flex;
+			align-items: center;
+
+			&:before {
+				content: counter(li);
+				counter-increment: li;
+				background-color: transparent;
+				border: 2px solid $color-gray;
+				border-radius: 50%;
+				padding: 0.5em;
+				display: inline-block;
+				margin-left: -105px;
+				margin-right: 24px;
+				text-align: center;
+				@include font-source-serif(40px, $color-blue);
+				@include element-size(80px, 80px);
+			}
+		}
+	}
+}
+
+.form {
+	margin-top: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+
+	&__phone {
+		margin-bottom: 4px;
+		@include font-source-sans(13px, $color-white, normal, 18px);
+	}
+
+	&__field {
+		width: 348px;
+		background-color: transparent;
+		border: none;
+		border-bottom: 2px solid $color-lightgray;
+		margin-bottom: 26px;
+	}
+
+	&__text-phone {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	&__text-label {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	&__info {
+		background: #262B36;
+		border-radius: 8px;
+		margin-top: 48px;
+		@include element-size(48px, 348px);
+	}
+}
+
+.check__input {
+	display: none;
+	cursor: pointer;
+
+	&:checked+.check__label:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 2px;
+		left: 8px;
+		border: solid $color-white;
+		border-width: 0 3px 3px 0;
+		transform: rotate(45deg);
+		@include element-size(13px, 7px);
+	}
+}
+
+.check__label {
+	position: relative;
+	cursor: pointer;
+	align-items: flex-start;
+	margin-bottom: 31px;
+	display: flex;
+
+	&:before {
+		content: '';
+		background-color: transparent;
+		border: 2px solid $color-white;
+		padding: 9px;
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+		cursor: pointer;
+		margin-right: 10px;
+	}
+}

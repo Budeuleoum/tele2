@@ -1,0 +1,35 @@
+.terabyte {
+	margin-top: 142px;
+
+	&__text-descr {
+		margin: 27px 0px 56px;
+		max-width: 59%;
+	}
+
+	&__list {
+		display: flex;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		margin-right: 56px;
+	}
+
+	&__circle {
+		position: relative;
+		background-color: $color-gray;
+		border-radius: 50%;
+		text-align: center;
+		margin-right: 16px;
+		@include element-size(72px, 72px);
+	}
+
+	&__img {
+		position: absolute;
+		top: 50%;
+		right: 22%;
+		transform: translateY(-50%);
+		@include element-size(40px, 40px);
+	}
+}

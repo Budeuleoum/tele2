@@ -1,0 +1,59 @@
+@mixin font-source-sans($size: false, $colour: false, $weight: false, $lh: false) {
+  font-family: 'Tele2TextSans', sans-serif;
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $colour {
+    color: $colour;
+  }
+
+  @if $weight {
+    font-weight: $weight;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin font-source-stencil($size: false, $colour: false, $lh: false) {
+  font-family: 'StandardCTStencil', sans-serif;
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $colour {
+    color: $colour;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin font-source-serif($size: false, $colour: false, $lh: false) {
+  font-family: 'DisplaySerif', sans-serif;
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $colour {
+    color: $colour;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+@mixin element-size($height, $width: false) {
+  height: $height;
+
+  @if $width {
+    width: $width;
+  }
+}

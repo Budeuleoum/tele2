@@ -1,0 +1,21 @@
+.container {
+	max-width: 1176px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.btn {
+	@include font-source-sans(16px, $color-black, bold);
+	border: none;
+	background-color: $color-white;
+	padding: 13px 40px;
+	border-radius: 48px;
+}
+
+.title {
+	@include font-source-serif(40px, $color-white, 52px);
+}
+
+.text {
+	@include font-source-sans(20px, $color-white, normal, 30px);
+}
